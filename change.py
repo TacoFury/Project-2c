@@ -1,6 +1,5 @@
 print("Please enter an amount in cents less than a dollar.")
 change = eval(input())
-print(change)
 print("Your change will be:")
 print("Q:", change // 25)
 change = change % 25
