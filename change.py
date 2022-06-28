@@ -1,6 +1,6 @@
 print("Please enter an amount in cents less than a dollar.")
 change = float(87)
-print(change)
+print("87")
 print("Your change will be:")
 print("Q:", change // 25)
 change = change % 25
